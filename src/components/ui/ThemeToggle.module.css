@@ -1,0 +1,20 @@
+.icon {
+  width: 22px;
+  height: 22px;
+}
+
+.light {
+  display: none;
+}
+
+.dark {
+  display: block;
+}
+
+[data-mantine-color-scheme='light'] .light {
+  display: block;
+}
+
+[data-mantine-color-scheme='light'] .dark {
+  display: none;
+}
